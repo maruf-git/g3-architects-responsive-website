@@ -7,8 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.display-hide{
-    display:none !important;
+
+.display-hide {
+    display: none !important;
 }
 
 /* shared-styles */
@@ -38,16 +39,16 @@
     line-height: 23px;
     border-radius: 8px;
     background: rgb(255, 144, 14);
-    padding:21px 25px;
-    border:none;
-    text-decoration:none;
+    padding: 21px 25px;
+    border: none;
+    text-decoration: none;
 }
 
 /* header styles */
 #header {
     background-color: rgba(255, 144, 14, 0.1);
-    padding-bottom:45px;
-    margin-bottom:85px;
+    padding-bottom: 45px;
+    margin-bottom: 85px;
 }
 
 .navbar {
@@ -60,6 +61,7 @@
     max-width: 1440px;
     padding: 10px 0;
 }
+
 .menu-links {
     display: flex;
     justify-content: center;
@@ -90,14 +92,14 @@
 
 /* banner styles */
 .banner {
- 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
     max-width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
@@ -108,40 +110,83 @@
     margin-bottom: 50px;
 }
 
-.banner-img-container {
+.img-container {
     /* width: 100%;
     height: 100%; */
 }
-.banner-img-container img{
+
+.img-container img {
     border-radius: 8px;
     width: 100%;
-    height:100%;
+    height: 100%;
+}
+
+/* our features styles */
+.our-features {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:130px;
+}
+
+.our-features-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features-right {
+    margin-left: 73px;
+}
+
+.features-title {
+    font-family: Work Sans;
+    font-size: 2.81rem;
+    font-weight: 700;
+    line-height: 53px;
+}
+#quick-list{
+    color:rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size:45px;
+    font-weight:500;
+    line-height: 53px;
+}
+#features{
+    color:rgb(255, 144, 14);
 }
 
 /* responsive media queries */
 /* small devices */
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
     .navbar {
         justify-content: center;
         flex-direction: column;
         gap: 20px;
     }
+
     .menu-links {
         gap: 20px;
         flex-direction: column;
     }
+
     .banner-text-content {
         width: auto;
     }
-    
+
 }
+
 /* medium devices */
-@media only screen and (min-width:577px) and (max-width:992px){
+@media only screen and (min-width:577px) and (max-width:992px) {
     .navbar {
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
     }
+
     .banner-text-content {
-      width:auto;
+        width: auto;
     }
 }
