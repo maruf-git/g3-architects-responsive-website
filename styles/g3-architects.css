@@ -142,13 +142,15 @@
     margin-left: 73px;
 }
 
-.features-title {
+.our-features-title {
     font-family: Work Sans;
     font-size: 2.81rem;
     font-weight: 700;
     line-height: 53px;
 }
+.our-features-description{
 
+}
 #quick-list {
     color: rgb(114, 114, 114);
     font-family: Work Sans;
@@ -298,12 +300,24 @@
         margin-left: 0;
     }
 
-    .features-title {
+    .our-features-title {
         text-align: center;
     }
 
-    .features-description {
+    .our-features-description {
         padding: 0 10px;
+    }
+
+    /* features-enjoy section responsive */
+    .features-enjoy {
+        flex-direction: column;
+    }
+    .features-left {
+        width: auto;
+    }
+    .experience-card {
+      
+        left:0;
     }
 }
 
