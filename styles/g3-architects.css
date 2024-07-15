@@ -161,7 +161,106 @@
     color: rgb(255, 144, 14);
 }
 
+/* features-enjoy section style */
+.features-enjoy {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-left {
+    width: 586px;
+    padding-top: 70px;
+}
+
+.features-title-content {
+    margin-bottom: 60px;
+}
+
+.features-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2.81rem;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 10px;
+}
+
+.features-decription {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.feature-card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.feature-card-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.feature-card-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.features-right{
+    position:relative;
+}
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 144, 14);
+    border-radius: 8px;
+    width: 342px;
+    height: 154px;
+    position: absolute;
+    bottom: 7px;
+    left: -84px;
+}
+
+.experience-year {
+    font-family: Work Sans;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 4.06rem;
+    line-height: 70px;
+      text-align:center;
+
+}
+
+#experience {
+    font-family: Work Sans;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.56rem;
+    line-height: 50px;
+    text-align:center;
+
+}
+
 /* responsive media queries */
+
 /* small devices */
 @media only screen and (max-width:576px) {
 
@@ -184,7 +283,7 @@
     /* our features section responsive*/
     .our-features {
         flex-direction: column;
-        gap:30px;
+        gap: 30px;
     }
 
     .our-features-left {
@@ -224,8 +323,9 @@
     /* our features section responsive*/
     .our-features {
         flex-direction: column;
-        gap:30px;
+        gap: 30px;
     }
+
     .our-features-left {
         grid-template-columns: repeat(2, 1fr);
     }
