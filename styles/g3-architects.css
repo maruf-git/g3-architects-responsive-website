@@ -312,6 +312,7 @@
     padding: 45px 36px;
     border: 1px solid rgb(255, 144, 14);
     border-radius: 8px;
+    text-align:center;
 }
 
 #fact-number {
@@ -390,6 +391,21 @@
 
     .experience-card {
         left: 0px;
+    }
+
+    /* some-facts section responsive */
+    .facts-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding:0;
+    }
+    .some-facts-title-container {
+        width: auto;
+        text-align: center;
+    }
+    .fact-card {
+        padding: 25px 30px;
     }
 }
 
